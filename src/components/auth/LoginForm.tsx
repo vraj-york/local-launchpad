@@ -66,7 +66,7 @@ export function LoginForm({ setTempPassword }: LoginFormProps) {
 		: PASSWORD_VISIBILITY_LABELS.show;
 
 	return (
-		<Card className="rounded-xl border border-border bg-gradient-to-br from-background via-card to-brand-primary-bg shadow-md dark:from-card dark:via-primary/5 dark:to-primary/20">
+		<Card className="border bg-background rounded-xl border-border shadow-md">
 			<CardHeader className="space-y-1 text-center">
 				<CardTitle className="text-heading-4 font-semibold text-text-foreground">
 					{LOGIN_PAGE_CONTENT.title}
